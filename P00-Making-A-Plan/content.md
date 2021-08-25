@@ -1,12 +1,8 @@
----
-title: "Making A Plan!"
-slug: Making-A-Plan
----
+# Making A Plan!
 
 Become a master of the world by creating a landing page for
 the worlds best shoe store, your shoe store.
 
-# Making A plan
 All websites need a home page, and shoe selling is no exception. We are going to create a homepage from scratch, while practicing modern design tools, and best practices, all without aid of any libraries or frameworks.
 
 To start we will plan out the different sections and features we would like to have on our website.
@@ -80,6 +76,7 @@ Inside of index.html, please write the following:
   </body>
 </html>
 ```
+
 Once we have our basic **HTML5 boilerplate** we're ready to create a few more files that will help us out.
 
 # Adding An External Stylesheet and Javascript File
@@ -121,7 +118,7 @@ Inside of index.html, let's add the following lines of code:
   </body>
 </html>
 
-```   
+```
 
 You'll notice that we organize our Stylesheets in our head, and our javascript files right before our closing body tag.
 
@@ -132,3 +129,5 @@ We put our stylesheets in the head because we want the browser to load our style
 We now have a basic template ready to be used.
 
 And just like that we're all set and ready for some shoe customers!
+
+Click [here](../P01-Navigation/content.md) to move onto the next section about navigation.

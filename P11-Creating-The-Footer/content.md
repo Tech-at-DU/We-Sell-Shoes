@@ -1,12 +1,11 @@
----
-title: "Create The Footer"
-slug: create-the-footer
----
+# Create The Footer
+
 In the last section we created an FAQ accordion. In this section we are going to create the Footer of the website!
 
 We are in the home stretch. Let's dive right into it.
 
 # Adding the markup
+
 Below our FAQ Section, let's add in our Footer Markup:
 
 ```HTML
@@ -38,6 +37,7 @@ Below our FAQ Section, let's add in our Footer Markup:
 </div>
 
 ```
+
 Our footer is built in two section, the top part and the bottom part. The top part contains information and some relevant links, and the bottom shows the copy right info.
 
 Now that we've got in our footer `html` lets go ahead and add some styles.
@@ -127,4 +127,6 @@ But we're still not done, there's one final thing we need to do.
 
 # Onward
 
-In the next section we are going to create a popup form with an incentive to subscribe.   
+In the next section we are going to create a popup form with an incentive to subscribe.
+
+Click [here](../P12-The-Popup-Form/content.md) to move onto the next section.

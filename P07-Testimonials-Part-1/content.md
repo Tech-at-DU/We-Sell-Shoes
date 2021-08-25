@@ -1,7 +1,4 @@
----
-title: "Testimonials Part 1"
-slug: testimonials-1
----
+# Testimonials Part 1
 
 Testimonials are super important! In the digital age, nobody wants to purchase something unless the reviews are good.
 
@@ -37,7 +34,8 @@ Let's do some mark-up shall we?
 
 </div>
 
-```  
+```
+
 We have a lot of markup for these testimonials because we want them to be interactive. The dots class you see will be used to navigate through our testimonials.
 
 Let's get some styles going now.
@@ -148,7 +146,8 @@ testimonials
   background: black;
 }
 
-```  
+```
+
 What's going on here?
 
 We gave our .tests class a width of 300% and our indivdual testimonials a width of 100%. This is because we want each one to take up 100% of the page.
@@ -170,6 +169,7 @@ body {
 }
 
 ```
+
 That should do it!
 
 But now a new problem presents itself, now that we can't scroll to them, there's no way to see them.
@@ -178,5 +178,8 @@ This is where javascript comes into play.
 
 We will add our interactive javascript in part two.
 
-# Onward   
+# Onward
+
 In the next section we will add functional javascript to make our testimonials work.
+
+Click [here](../P08-Testimonials-Part-2/content.md) to move onto the next section.

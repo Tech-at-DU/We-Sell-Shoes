@@ -1,13 +1,10 @@
----
-title: "Client Showcase"
-slug: showcasing-our-clients
----
+# Client Showcase
 
-Many website, especially ones for startups like to showcase different clients that use their products/software.
+Many websites, especially ones for startups like to showcase different clients that use their products/software.
 
 We are going to do the same on our landing page.
 
-# Client markup
+# Client Markup
 
 Let's start again by adding in some markup of the images of our clients. I just grabbed some stock images from the internet as placeholders.
 
@@ -88,7 +85,7 @@ Setting the margin to 0 gets rid of the extra white space above. Feel free to pl
 
 We give it a `font-weight` of `400` to bold the font slightly.
 
-# Make the images slightly interactive
+# Make the Images Slightly Interactive
 
 In order to make our images a little more lively, we can add some transitions and hover effects.
 
@@ -105,6 +102,8 @@ In order to make our images a little more lively, we can add some transitions an
 
 This gives us a nice scale effect on hover. Feel free to adjust this as you wish.
 
-# onward
+# Onward
 
 Our landing page is really starting to come together. In the next section we will add a newsletter subscription panel.
+
+Click [here](../P04-Subscribe-Panel/content.md) to move onto the next section.

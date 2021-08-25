@@ -1,7 +1,4 @@
----
-title: "Subscribe Form 3"
-slug: subscribe-form-3
----
+# Subscribe Form Part 3
 
 Let's add in our third subscribe section.
 
@@ -20,6 +17,7 @@ Underneath our testimonials, lets add the following:
   </div>
 </div>
 ```
+
 Now we can add in a new background.
 
 # Style it up
@@ -50,12 +48,15 @@ subscribe 3
 }
 
 ```
+
 Great!
 
 let's take another look at what we've created.
 
-![animated make cookies](images/cookies.gif "make cookies landing page")    
+![animated make cookies](images/cookies.gif "make cookies landing page")
 
 # Onward
 
 Next thing is the FAQ section. Lets get right to it!
+
+Click [here](../P10-FAQ-Section/content.md) to move onto the next section.

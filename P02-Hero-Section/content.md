@@ -1,13 +1,11 @@
----
-title: "Creating the Hero!"
-slug: creating-the-hero
----
+# Creating the Hero!
 
 Here comes one of the coolest parts of the landing page. We will build it step by step so you can get a good idea of how to replicate this in future projects. We're going to build a "Hero" section at the top of our website. The "Hero" is an image and text that makes the product or user of a product the hero of the page.
 
 ![Hero Image Complete](images/hero2.png "Completed hero image")
 
 # Let's create the Hero!
+
 The first thing we will do is create the full-sized `div` with a nice background image.
 
 ```HTML
@@ -58,6 +56,7 @@ We're going to add in a big bold heading that tells the user exactly what our we
 </div>
 
 ```
+
 Here we have a parent Div, a heading, and a call to action button.
 
 We can now add the following styles:
@@ -115,8 +114,6 @@ Now we are able to use the `roboto` font.
 
 Now we should define a pretty call to action button.
 
-
-> [info]
 > A **Call To Action** is what you'd like the user to *do* on your site. In the case of this landing page is we want them to buy shoes, and to buy them, they need to shop for them. So our call to action button will say "Shop Now".
 >
 > **Class Naming Conventions** - We want variable names to say what the variable is and be short. We name our class **btn-cta** because "btn" is an abbreviation for "button" and "cta" is the standard industry abbreviation for "Call To Action".
@@ -148,3 +145,5 @@ Your page should now look something like this:
 # Onward
 
 We've now got a pretty nice looking hero section. In the next section we will add a section to show off our clients.
+
+Click [here](../P03-Client-Showcase/content.md) to move onto the next section.

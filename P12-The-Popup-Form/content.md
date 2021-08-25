@@ -1,7 +1,5 @@
----
-title: "The Popup Form"
-slug: the-popup-form
----
+# The Popup Form
+
 Alright, this is the final section, so get excited.
 
 We are going to create a pop-up form, and it's going to be awesome.
@@ -28,6 +26,7 @@ Inside of of navigation menu, let's add the following:
   </nav>
 </div>
 ```
+
 You'll notice that this button has an id on it, this means we are planning to add some functionality to it with javascript.
 
 Before we continue though, lets change a few styles in the navbar:
@@ -56,6 +55,7 @@ Before we continue though, lets change a few styles in the navbar:
 Great, now we are set to add the next part, which is the markup for the pop-up itself.
 
 # Pop it
+
 At the top of our index.html file, right after the opening <body> tag, let's add the following:
 
 ```html
@@ -76,6 +76,7 @@ At the top of our index.html file, right after the opening <body> tag, let's add
 <!--everything above this line-->
 <div class="nav-bar">
 ```
+
 Let's talk about this. We have a pop-up-layer that everything is nested into.
 
 This pop-up layer is going to take up the entire page, it will be a transparent overlay.
@@ -84,7 +85,7 @@ Then we have the form itself, an incentive to subscribe, and a closing X button 
 
 Now we are ready to add some styles.
 
-# Pop In Style!   
+# Pop In Style!
 
 We are going to do some fun stuff with this pop-up. Let's get started.
 
@@ -118,6 +119,7 @@ Popup
 
 
 ```
+
 Let's stop right here and explain what this is. When we use the ```@keyframes``` selector, that means we are creating an animation. You've probably been exposed to CSS Animations before, and many developers make use of libraries such as animate.css and [Woah.css](http://www.joerezendes.com/projects/Woah.css/).
 
 We just made our very own animation for the pop-up form.
@@ -159,6 +161,7 @@ Let's continue:
   animation-timing-function: linear;
 }
 ```
+
 At the bottom of ```.pop-up``` we see some animation functions.
 
 We set the animation name by just calling the ```@keyframes``` we created.
@@ -220,9 +223,11 @@ Now we can pretty safely add in the rest.
 }
 
 ```
+
 And those are all the styles we need. We're in the home stretch now. Let's add in some javascript.
 
 # Scripting our Pop-Up!
+
 We'll get straight into it.
 
 At the top of your javascript file, let's add the following:
@@ -272,6 +277,7 @@ let popUpFun = window.setInterval(function() {
 
 
 ```
+
 We multiply the popUpSeconds by 1000 because intervals keep track of milleseconds.
 
 We should now have a pop-up that looks like this:
@@ -279,6 +285,7 @@ We should now have a pop-up that looks like this:
 ![pop-up!](images/popup.gif "Pop-up!")
 
 # Onward
+
 We've established some awesome CSS and JS skills for building static landing pages.
 
 I encourage you to work with some of these skills a little bit more so that you can master these concepts!

@@ -1,11 +1,9 @@
----
-title: "Testimonials Part 2"
-slug: testimonials-2
----
+# Testimonials Part 2
 
 So we left off with having the styles complete, now we need to add some functionality with javascript.
 
 # Plan it out
+
 Let's first plan out what we'd like to implement.
 
 - The testimonials should cycle through on their own
@@ -40,10 +38,12 @@ const testimonial3 = document.querySelector('.testimonial3')
 //testimonial parent container
 const tests = document.querySelector('.tests');
 
-```  
+```
+
 These are all going to use const, because they will not change.
 
 # Interval Timers
+
 We want the testimonials to automatically cycle through. Let's add these lines of code below our variables.
 
 ```js
@@ -114,6 +114,7 @@ function dotClick(oldClassOne, oldClassTwo, newClass) {
 
 
 ```
+
 Because we can click any dot no matter what position we're in, we have to remove the other classes because we add the one that brings us where we need to go.
 
 We will go in depth on eventListeners and DOM Manipulation in the Make Cookies tutorial.
@@ -153,3 +154,5 @@ Nice, we now have an interactive testimonial section.
 # Onward
 
 The next session will give us a bit of a break, as we will just be adding in a third subscribe section.
+
+Click [here](../P09-Subscribe-Form-3/content.md) to move onto the next section.

@@ -1,13 +1,11 @@
----
-title: "Creating The Navigation"
-slug: creating-the-navbar
----
+# Creating The Navigation
 
 One of the most important parts of a website is their navigation menu. Typically, these are navigation bars at the top of a webpage, but some websites put their navigation on the side.
 
 For this project we will put our navigation on the top of the page.
 
 # Navbar Mark-up
+
 To begin, let's add the following HTML inside of our `<body>`:
 
 ```HTML
@@ -36,7 +34,6 @@ Right now our page looks like this:
 
 In order to get it to look like a navbar, we will need to give it some CSS. We will do bit by bit inside of our styles.css file.
 
-
 # Styleing the Navbar
 
 At the top of our page in `styles.css` lets add a comment that tells us what section we're in, and a few styles:
@@ -53,6 +50,7 @@ NAVBAR
 }
 
 ```
+
 We give our parent navbar class a higher z-index and a width of 100% so it goes across the page.
 
 The next thing we'll use [CSS3 Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox) to make our `nav-links` display horizontally.
@@ -135,6 +133,7 @@ NAVBAR
 ***********/
 
 ```
+
 There we go, that fixed it.
 
 If you hover over one of the images, you'll notice that some interesting things happen to them. This is because we applied some element state rules in our CSS.
@@ -147,11 +146,15 @@ If you hover over one of the images, you'll notice that some interesting things 
 }
 
 ```
+
 After any selector, if you add :hover, you'll be able to change the way it looks when hovered. Feel free to mess with these styles as you wish. You aren't limited to the transform property.
 
 See [this for more information on CSS psuedo classes.](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
 
 We will revisit the navbar in the future.
 
-# Going forward
+# Onward
+
 Now that we've finished our navbar, it's time to add in our Hero Section!
+
+Click [here](../P02-Hero-Section/content.md) to move onto the next section.

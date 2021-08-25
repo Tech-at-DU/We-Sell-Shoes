@@ -1,7 +1,4 @@
----
-title: "Building the Gallery"
-slug: building-the-gallery
----
+# Building the Gallery
 
 The gallery is one of the coolest things about this tutorial. We'll take it slow together so you can replicate this with ease in the future.
 
@@ -38,7 +35,7 @@ Each item inside of the gallery div will have the panel class, a few will hold t
 
 We can now add some CSS to create our gallery.
 
-# Adding some styles
+# Adding Some Styles
 
 Inside of our stylesheet, at the bottom, lets add these:
 
@@ -70,6 +67,7 @@ gallery
   perspective: 800px;
 }
 ```
+
 The same way we setup flexbox by using ```display: flex```, we set up grid by doing: ```display: grid```.
 
 The grid-gap property defines the space in between each grid item.
@@ -90,6 +88,7 @@ Perspective is used to create a 3D space. You'll see why in a bit. For now let's
 }
 
 ```
+
 The reason why we have a few different instances of the gallery class is so we can target different things with it.
 
 Currently CSS Grid isn't supported by all browsers, so we can default it to flexbox when grid isn't supported.
@@ -253,6 +252,7 @@ add these lines below
   z-index: 3;
 }
 ```
+
 I encourage you to mess around with these properties and watch what happens. You can create some really interesting effects. It's worth tweaking things like scale, and rotateX/rotateY to see what you can do.
 
 We should now have something that looks a little like this:
@@ -261,4 +261,6 @@ We should now have something that looks a little like this:
 
 # Onward
 
-In the next session, we will add another subscribe panel with parallax. This should be pretty easy because we already have most of the CSS we will need for it. 
+In the next section, we will add another subscribe panel with parallax. This should be pretty easy because we already have most of the CSS we will need for it. 
+
+Click [here](../P06-Subscribe-Form-2/content.md) to move onto the next section.

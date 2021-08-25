@@ -1,7 +1,4 @@
----
-title: "Subscribe Form 1"
-slug: building-the-subscribe-form
----
+# Subscribe Form Part 1
 
 One of the most important aspects of modern landing pages is directing users to sign up for newsletters.
 
@@ -55,6 +52,7 @@ With our new style plan, we can begin to add some CSS.
  }
 
  ```
+
  Take note of ```background-attachment: fixed;```. This is what adds the parallax effect onto our image.
 
  The next bit we can add is add the headings:
@@ -132,6 +130,9 @@ We should now have a page that looks like this:
 ![Subscribe form](images/landing.png "subscribe form")  
 
 # Onward
+
 The next step is creating the gallery. This is one of the most important parts of any shop. Without a gallery our users won't be able to view our products.
 
 We will also introduce CSS Grid in this section so stay tuned.
+
+Click [here](../P05-Gallery-Showcase/content.md) to move onto the next section.

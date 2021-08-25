@@ -1,7 +1,4 @@
----
-title: "Subscribe Form 2"
-slug: subscribe-form-2
----
+# Subscribe Form Part 2
 
 On landing pages it's important to repeat things several times, especially actions you want your users to take. This is why we will repeat the subscribe form a few more times throughout this process.
 
@@ -21,6 +18,7 @@ Underneath our gallery, lets add the following:
 </div>
 
 ```
+
 Awesome! You'll notice that this looks exactly like our other subscribe form. The only thing that changed is that we appended a -2 to the subscribe class. This is so we can use a different background. Let's go ahead and do that now.
 
 # Style it up
@@ -59,3 +57,5 @@ let's take another look at what we've created.
 # Onward
 
 Next thing up is some testimonials. This is going to be another interesting section.
+
+Click [here](../P07-Testimonials-Part-1/content.md) to move onto the next section.

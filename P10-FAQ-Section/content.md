@@ -1,13 +1,11 @@
----
-title: "FAQ Section"
-slug: FAQ-Section
----
+# FAQ Section
 
 Most online stores seem to have a section for frequently asked questions. We are going to have one as well.
 
 In this section we will create an Accordian style FAQ panel from scratch.
 
 # Mark our territory
+
 Let's begin by getting the markup out of the way.
 
 Put this code below the third subscribe form:
@@ -34,6 +32,7 @@ Put this code below the third subscribe form:
 </div>
 
 ```
+
 Awesome work. Feel free to change/add questions as you wish.
 
 It's time to add some styles to create the accordion.
@@ -106,6 +105,7 @@ faq-panel
 }
 
 ```
+
 Awesome. Now it looks like a pretty good accordion.
 
 But we can't interact with it yet. Let's fix that.
@@ -160,6 +160,7 @@ We defined our active class in our stylesheet.
 //select sibling element
 let panel = this.nextElementSibling;
 ```
+
 The panel will be the div below that contains our answer.
 
 ```js
@@ -174,6 +175,7 @@ if (panel.style.maxHeight){
 }
 
 ```
+
 Great! That's how we make a nice FAQ Accordion in vanilla JS.
 
 Let's take a look at what the finished FAQ should look like:
@@ -181,4 +183,7 @@ Let's take a look at what the finished FAQ should look like:
 ![faq](images/faq.gif "faq")  
 
 # Onward
+
 The next section of our website is going to be the footer!
+
+Click [here](../P11-Creating-The-Footer/content.md) to move onto the next section.
